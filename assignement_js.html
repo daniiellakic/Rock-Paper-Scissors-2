@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style/style.css">
+        <title>Rock Paper Scissors</title>
+    </head>
+
+    <body>
+
+        <div class="game">
+            <h1 class="title">Rock Paper Scissors Game</h1>
+            <h4 class="title">Get the 5 points first and beat the machine</h4>
+
+            <div class="score">
+
+                <ul class='scoreNumber'>
+                    <li id='playerNumber'>0</li>
+                    <li id='computerNumber'>0</li>
+                </ul>
+
+                <ul class='scoreTable'>
+                    <li id='scorePlayer'>You</li>
+                    <li id='scoreComputer'>Machine</li>
+                </ul>
+
+                <p id='result'></p>
+
+            </div>
+
+            <div class="buttons">
+                <button id='Rock' onclick="play(this.id)">Rock</button>
+                <button id='Paper' onclick="play(this.id)">Paper</button>
+                <button id='Scissors' onclick="play(this.id)">Scissors</button>
+            </div>
+
+            <input type="button" value='Reset' id='reset' onclick="window.location.reload()">
+
+        </div>
+        <script src="./script/script.js"></script>
+    </body>
+
+    </html>

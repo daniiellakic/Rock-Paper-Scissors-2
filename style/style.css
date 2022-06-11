@@ -1,0 +1,140 @@
+html,
+body {
+    background: rgb(127, 169, 247);
+    font-family: 'Roboto', sans-serif;
+}
+
+.game {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: blue;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(90, 90, 253);
+}
+
+.score {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+}
+
+input {
+    width: 100px;
+    height: 100px;
+    margin-inline: 80px;
+}
+
+.button:hover {
+    position: relative;
+}
+
+.scoreNumber {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 2px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.scoreNumber li {
+    margin-inline: 150px;
+    font-size: 70px;
+}
+
+.scoreTable {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.scoreTable li {
+    margin-inline: 90px;
+    font-size: large;
+    color: white;
+    background-color: rgb(90, 90, 253);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#outcome {
+    position: flex;
+    font-size: x-large;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    position: fixed;
+    bottom: 90px;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Rock,
+#Paper,
+#Scissors {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#Rock,
+#Paper,
+#Scissors:hover {
+    box-shadow: 0 5px 15px rgba(58, 50, 104, 0.4);
+}
+
+input[type=button] {
+    position: fixed;
+    margin-top: 620px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: 0;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    background: rgb(90, 90, 253);
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type=button]:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    cursor: pointer;
+}
